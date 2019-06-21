@@ -66,6 +66,9 @@ class App extends Component {
       return (
       <div className="App">
         <button onClick={e=> this.handleaddquiz(e)}>Add Quiz</button >
+        <img src="http://hdwpro.com/wp-content/uploads/2017/01/3D-Cool-Image.jpg">
+        
+        </img>
         {this.state.quizzes.map((quiz,index)=>{
           return(
             <div key={index}> 
